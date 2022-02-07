@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link rel="stylesheet" type="text/css" href="compra.css">
+    <title>Compra</title>
+
+</head>
+  <body>
+    <form name="compra" id="compra" method="GET" action="concluido.html">
+      <center>
+        <fieldset>
+          <legend>Dados Para Compra</legend></br>
+      
+            <label for="txtnome" class="texto">Nome</label>
+            <input type="text" name="txtnome" id="txtnome"
+            placeholder="Nome Completo" class="campo"></br>
+      
+            <label for="txtRG" class="texto">RG</label>
+            <input type="text" name="txtRG" id="txtRG"
+            placeholder="Seu RG" class="RG">
+
+            <label for="txtCPF" class="texto">CPF</label>
+            <input type="number" name="txtCPF" id="txtCPF"
+            placeholder="Seu CPF" class="CPF">
+
+            <label for="txtEmail" class="texto">Email</label>
+            <input type="email" name="txtEmail" id="txtEmail"
+            placeholder="Seu Email" class="Email">
+
+            <label for="txtSenha" class="texto">Senha</label>
+            <input type="password" name="txtSenha" id="txtSenha"
+            placeholder="Sua Senha" class="Senha"> 
+
+            <br><br>
+
+            <button type="submit" class="btn">Enviar</button>
+            <button type="reset" class="btn">Apagar</button>
+ 
+        </fieldset>
+      </center>
+    </form>
+  </body>
+</html>

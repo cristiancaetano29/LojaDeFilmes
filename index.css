@@ -1,0 +1,102 @@
+img
+{
+    width: 70px;
+    height: 360px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: greenyellow;
+}
+
+body
+{
+    background-image:url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h4
+{
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    margin-inline: 500px;
+    color: chartreuse;
+    background-color: black;
+}
+
+p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 260px;
+    height: 250px;
+    font-size: 18px;
+}
+
+.card-title
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+.card-content
+{
+    background-color: rgba(79, 94, 100, 0.699);
+    border-style: solid;
+    border-radius: 110px;
+    border-color: greenyellow;
+}
+
+.preco
+{
+    color: red;  
+    border-color: red;
+    border-style: solid;
+    border-radius: 7px;  
+    background-color: #000000;
+    font-size: 19px;
+}
+
+.anima
+{
+    text-align: center;
+    border-radius: 10px;
+    height: 30px;
+    width: 110px;
+    color: blue;
+    background-color: greenyellow;
+    cursor: pointer;  
+    font-size: 20px;   
+}
+
+.item
+{
+    border-radius: 10px;
+}
+
+.trk
+{
+    background-image:url(back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.brand-logo
+{
+    background-color: rgb(94, 94, 250);
+    border-radius: 10px;    
+    width: 150px;
+}
+
+.nav-wrapper
+{
+    background-color: rgb(36, 36, 104);  
+}
+
+.material-icons
+{
+    color: greenyellow;
+    font-size: 110px;
+}
+

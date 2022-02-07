@@ -1,0 +1,32 @@
+legend{
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center; 
+    font-size: 25px;
+    border-color: chartreuse;
+    color: chartreuse;
+    background-color: darkslategray;
+}
+
+body
+{
+    background-image:url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+fieldset{
+    width: 600px;
+    height: 600px;
+    border-color: chartreuse;
+    background-color: darkslategray;
+}
+
+.texto{
+    font-size: 20px;
+    display: inline-block;
+    float: left;
+    color: chartreuse;
+}
+
+

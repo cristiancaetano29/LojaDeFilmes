@@ -1,0 +1,34 @@
+h4{
+    text-align: center;
+    color: chartreuse;
+    border-style:dotted;
+    margin-inline: 710px;
+    border-radius: 10px;
+}
+
+body
+{
+    background-image:url(img/back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p{
+    color: chartreuse;
+    text-align: center;
+    border-radius: 10px;
+    border-style: solid;
+    width: 770px;
+    font-size: 19px;
+}
+.botao{
+    background-color: chartreuse;
+    font-size: 25px;
+    border-radius: 10px;
+    color: rgb(12, 12, 104);
+}
+
+.color{
+    color: rgb(56, 0, 39);
+}
+
